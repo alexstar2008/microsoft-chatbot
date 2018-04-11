@@ -3,7 +3,7 @@ const RP = require('request-promise');
 const header = {
     'Content-Type': 'application/json',
     'Ocp-Apim-Subscription-Key': '7e48bbdad09140f6a9da19749793bc23'
-}
+};
 
 async function getLevelOfMood(message) {
     const options = {

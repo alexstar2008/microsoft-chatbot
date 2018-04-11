@@ -6,12 +6,15 @@
   "author": "Oleksii Starovoitenko",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "serve": "nodemon app.js",
     "lint": "eslint ."
   },
   "dependencies": {
     "botbuilder": "^3.14.1",
     "eslint": "^4.19.1",
     "express": "^4.16.3",
+    "nodemon": "^1.17.3",
     "request-promise": "^4.2.2"
   }
 }

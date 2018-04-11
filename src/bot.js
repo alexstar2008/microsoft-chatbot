@@ -1,6 +1,6 @@
 const builder = require('botbuilder');
 //
-const { chatbot } = require('./config');
+const { chatbot } = require('../config');
 const { getGiphy, getLevelOfMood } = require('./libs');
 
 

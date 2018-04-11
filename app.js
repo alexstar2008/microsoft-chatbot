@@ -1,6 +1,6 @@
 const express = require('express');
 //
-const router = require('./router');
+const router = require('./src/router');
 
 const app = express();
 app.use('/', router);
@@ -8,5 +8,6 @@ app.use('/', router);
 
 
 app.listen(3000, () => {
-    console.log(`Server is listening on port: 3000`);
+    const port = process.env.port || 3000;
+    console.log(`Server is listening on port: ${port}`);
 });
